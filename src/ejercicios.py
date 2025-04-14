@@ -28,14 +28,12 @@ def es_primo(n):
     Recibe un número y devuelve True si es primo, False en caso contrario.
     Incluir el código aquí para determinar si un número es primo.
     """
-    impar= 0
-    par= 1
     if n <2: 
         return False
     for i in range(2,n):
         if n % i ==0:
             return False
-        return True
+    return True
         
 # Ejercicio 4: Transponer una matriz
 def transponer_matriz(matriz):
